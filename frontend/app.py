@@ -316,7 +316,7 @@ elif page == "📄 Create Document":
             ):
 
                 response = requests.post(
-                    "http://127.0.0.1:8000/generate-document",
+                    "https://legalease-fsx.onrender.com/generate-document",
                     json=data,
                     timeout=120
                 )
